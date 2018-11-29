@@ -174,7 +174,7 @@ public class ThreePrisonersDilemma {
 		case 0:
 			return new student1();
 		case 1:
-			return new LEK_JIE_LING_PLAYER();
+			return new MY_PLAYER();
 
 		case 2:
 			return new TolerantPlayer();

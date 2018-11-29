@@ -8,8 +8,7 @@ public class LEK_JIE_LING_PLAYER extends Player{
 	boolean checkNextRound = false; //will be set True after cooperating to signal willingness to coop
 	
 	int selectAction(int n, int[] myHistory, int[] oppHistory1, int[] oppHistory2) {
-		System.out.println("ROUND");
-		System.out.println(n);
+
 		// Start by cooperating
 		if (n == 0) {
 
@@ -49,8 +48,6 @@ public class LEK_JIE_LING_PLAYER extends Player{
 			if (chancesGiven>0) {
 				coopNextRound=true;
 			}
-			System.out.println("checkNext rounf should be false");
-			System.out.println(checkNextRound);
 
 			return 1;
 		}
