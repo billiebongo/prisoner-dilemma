@@ -59,18 +59,12 @@ decide if to retaliate(defect) if the defect rate in the last 10 rounds is above
 Student2: This agent will retaliate if the defect rate of last 25 rounds of the other agents is above
 0.25%, otherwise cooperate.
 
-> Tournament Results​ (removed unlikely players like Nasty, Nice and Freaky which would skew
+> Tournament Results(removed unlikely players like Nasty, Nice and Freaky which would skew
 evaluation of a realistic tournament)
-prisoners.student2: 154.32132 points.
-prisoners.MY_PLAYER: 153.28175 points.
-TolerantPlayer: 152.46585 points.
-prisoners.student1: 151.9193 points.
-T4TPlayer: 151.75694 points.
-RandomPlayer: 100.9449 points.
+
 
 | Player             | Points        |
 | -------------------|:-------------:| 
-
 |prisoners.student2  | 154.32132     | 
 | prisoners.MY_PLAYER|153.28175      | 
 | TolerantPlayer     |152.46585      |
