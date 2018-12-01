@@ -34,14 +34,18 @@ strategy, which would gain the best score regardless whether the other agents co
 defect simply because there is no "next round" which allows opportunity for retaliation. 
 
 Sample Evaluation of performance against other standard agents
-Tournament Results (example)
-TolerantPlayer: 170.33626 points.
-prisoners.MY_PLAYER: 169.50583 points.
-T4TPlayer: 168.36728 points.
-FreakyPlayer: 164.49934 points.
-RandomPlayer: 147.01097 points.
-NicePlayer: 143.24231 points.
-NastyPlayer: 140.7134 points.
+>Tournament Results (example)
+
+| Player            | Points        |
+| ------------------|:-------------:| 
+|TolerantPlayer     | 170.2322      |  
+|prisoners.MY_PLAYER| 168.36728     | 
+| T4TPlayer         |164.49934      | 
+| FreakyPlayer      | 147.01097     |
+| RandomPlayer      |  143.24231    |
+| NicePlayer        | 140.7134      |
+| NastyPlayer       | 130.7342      |
+
 Results vary, but in almost all the tournaments, MY_PLAYER, T4T and Tolerant players are the top
 3 players.
 
@@ -54,7 +58,8 @@ Student1: This agent uses a variant of T4T. It will cooperate by default and eve
 decide if to retaliate(defect) if the defect rate in the last 10 rounds is above a threshold
 Student2: This agent will retaliate if the defect rate of last 25 rounds of the other agents is above
 0.25%, otherwise cooperate.
-Tournament Results​ (removed unlikely players like Nasty, Nice and Freaky which would skew
+
+> Tournament Results​ (removed unlikely players like Nasty, Nice and Freaky which would skew
 evaluation of a realistic tournament)
 prisoners.student2: 154.32132 points.
 prisoners.MY_PLAYER: 153.28175 points.
@@ -62,6 +67,16 @@ TolerantPlayer: 152.46585 points.
 prisoners.student1: 151.9193 points.
 T4TPlayer: 151.75694 points.
 RandomPlayer: 100.9449 points.
+
+| Player             | Points        |
+| -------------------|:-------------:| 
+
+|prisoners.student2  | 154.32132     | 
+| prisoners.MY_PLAYER|153.28175      | 
+| TolerantPlayer     |152.46585      |
+| prisoners.student1 |   151.9193    |
+| T4TPlayer          | 151.75694     |
+| RandomPlayer       | 100.9449      |
 
 Results vary widely but the range of scores for the top 5 of the 6 is almost always less than 4
 points. It is hard to conclude the performance amongst so few agents.
