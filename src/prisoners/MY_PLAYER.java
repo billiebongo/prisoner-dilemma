@@ -1,6 +1,6 @@
 package prisoners;
 import prisoners.ThreePrisonersDilemma.Player;
-public class LEK_JIE_LING_PLAYER extends Player{
+public class MyPlayer extends Player{
 	
 	// Give max of 5 chances to signal willingness to coop
 	int chancesGiven = 10;
